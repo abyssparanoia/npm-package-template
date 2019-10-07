@@ -2,9 +2,16 @@
   "name": "hello-world",
   "version": "1.0.0",
   "description": "hello-world nodejs package ",
-  "main": "index.js",
+  "main": "dist/index.js",
   "author": "abyssparanoia",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn build"
+  },
   "devDependencies": {
     "typescript": "^3.6.3"
   }
