@@ -4,5 +4,8 @@
   "description": "hello-world nodejs package ",
   "main": "index.js",
   "author": "abyssparanoia",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  }
 }
