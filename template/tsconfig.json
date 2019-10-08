@@ -12,5 +12,6 @@
     "pretty": true,
     "newLine": "lf"
   },
-  "include": ["lib"]
+  "include": ["lib"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
