@@ -15,10 +15,12 @@
     "build:cjs": "tsc --project . --module commonjs --outDir ./cjs",
     "build:esm": "tsc --project . --module es2015 --outDir ./esm",
     "lint": "eslint -c ./.eslintrc.json './lib/**/*.ts' --fix",
+    "test": "jest",
     "prepublishOnly": "yarn build",
     "clean": "rimraf esm cjs"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.18",
     "@typescript-eslint/eslint-plugin": "^2.3.3",
     "@typescript-eslint/parser": "^2.3.3",
     "eslint": "^6.5.1",
@@ -54,6 +56,7 @@
       "^.+\\.ts$": "ts-jest"
     },
     "moduleFileExtensions": [
+      "js",
       "ts"
     ]
   }

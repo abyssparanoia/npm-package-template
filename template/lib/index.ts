@@ -1,5 +1,5 @@
-const helloWorld = () => {
-  console.log(`hello world`)
+const helloWorld = (name: string) => {
+  return `Hello World! Mr.${name}`
 }
 
 export default helloWorld
