@@ -16,6 +16,7 @@
     "build:esm": "tsc --project . --module es2015 --outDir ./esm",
     "lint": "eslint -c ./.eslintrc.json './lib/**/*.ts' --fix",
     "test": "jest",
+    "test:coverage": "jest --coverage",
     "prepublishOnly": "yarn build",
     "clean": "rimraf esm cjs"
   },
