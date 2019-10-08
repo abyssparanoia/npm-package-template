@@ -17,7 +17,7 @@
     "lint": "eslint -c ./.eslintrc.json './lib/**/*.ts' --fix",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "prepublishOnly": "yarn build",
+    "prepublishOnly": "yarn test && yarn build",
     "clean": "rimraf esm cjs"
   },
   "devDependencies": {
