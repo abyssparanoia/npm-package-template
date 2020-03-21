@@ -1,6 +1,6 @@
-# npm-package-playground
+# npm-package-template
 
-This is a playground for developing npm package
+This is a template repository for developing npm package
 
 ## how to develop
 
